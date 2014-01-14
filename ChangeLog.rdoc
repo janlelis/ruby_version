@@ -1,5 +1,4 @@
 === 1.0.0 / 2014-01-14
 
-* Add RubyVersion.revision
 * Moved from zucker 13.1 gem into its own gem
 

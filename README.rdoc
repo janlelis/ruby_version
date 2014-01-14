@@ -14,25 +14,34 @@ In Ruby:
 
 == Usage
 
-    # return RUBY_VERSION
-    RubyVersion
-    # check for the main version with a Float
-    RubyVersion.is? 1.8
-    # use strings for exacter checking
-    RubyVersion.is.above '1.8.7'
-    RubyVersion.is.at_least '1.8.7' # or exactly, below, at_most
-    # you can use the common comparison operators
+    # Output RUBY_VERSION
+    RubyVersion.to_s
+
+    # Check for the main version with a Float
+    RubyVersion.is? 2.1
+
+    # Use strings for exacter checking
+    RubyVersion.is.above '1.9.2'
+    RubyVersion.is.at_least '2.0.0' # or exactly, below, at_most
+
+    # You can use the common comparison operators
     RubyVersion >= '1.8.7'
-    RubyVersion.between? '1.8.6', '1.8.7'
-    # relase date checks
+    RubyVersion.between? '1.8.7', '1.9.2'
+
+    # Relase date checks
     RubyVersion.is.older_than Date.today
     RubyVersion.is.newer_than '2009-08-19'
-    # accessors
-    RubyVersion.major # e.g. => 1
-    RubyVersion.minor # e.g. => 8
-    RubyVersion.tiny  # e.g. => 7
-    RubyVersion.patchlevel # e.g. => 249
-    RubyVersion.description # e.g. => "ruby 1.8.7 (2010-01-10 patchlevel 249) [i486-linux]"
+
+    # Misc Accessors
+    RubyVersion.major # => 1
+    RubyVersion.minor # => 8
+    RubyVersion.tiny  # => 7
+    RubyVersion.patchlevel # => 249
+    RubyVersion.description # => "ruby 1.8.7 (2010-01-10 patchlevel 249) [i486-linux]"
+
+== Also See
+
+https://github.com/janlelis/ruby_engine
 
 == J-_-L
 
