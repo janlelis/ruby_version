@@ -1,0 +1,27 @@
+= ruby_version
+
+* {Homepage}[https://rubygems.org/gems/ruby_version]
+* {Documentation}[http://rubydoc.info/gems/ruby_version/frames]
+* {Email}[mailto:mail at janlelis.de]
+
+== Description
+
+TODO: Description
+
+== Features
+
+== Examples
+
+  require 'ruby_version'
+
+== Requirements
+
+== Install
+
+  $ gem install ruby_version
+
+== Copyright
+
+Copyright (c) 2014 Jan Lelis
+
+See LICENSE.txt for details.
