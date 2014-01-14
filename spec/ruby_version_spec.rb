@@ -1,5 +1,4 @@
-require 'zucker/ruby_version'
-require 'date'
+require 'spec_helper'
 
 describe 'RubyVersion' do
   before :all do
@@ -45,8 +44,8 @@ describe 'RubyVersion' do
     RubyVersion.major.should == 1
     RubyVersion.minor.should == 8
     RubyVersion.tiny.should == 7
-    # RubyVersion.patchlevel  # => RUBY_PATCHLEVEL
-    # RubyVersion.description # => RUBY_DESCRIPTION
+    RubyVersion.patchlevel.should == RUBY_PATCHLEVEL
+    RubyVersion.description.should == RUBY_DESCRIPTION
   end
 
   after :all do

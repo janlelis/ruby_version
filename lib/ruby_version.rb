@@ -1,4 +1,3 @@
-require_relative 'zucker/version'
 require 'date'
 require 'time'
 
