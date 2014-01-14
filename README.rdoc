@@ -1,6 +1,6 @@
-= RubyVersion
+= RubyVersion {<img src="https://travis-ci.org/janlelis/ruby_version.png" />}[https://travis-ci.org/janlelis/ruby_version]
 
-Provides a @RubyVersion@ to simplify checking for it your Ruby programs.
+Provides a +RubyVersion+ to simplify checking for the right Ruby version in your programs.
 
 == Setup
 

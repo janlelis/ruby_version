@@ -1,4 +1,5 @@
-=== 0.1.0 / 2014-01-14
+=== 1.0.0 / 2014-01-14
 
-* Initial release: Moved from zucker gem into its own gem
+* Add RubyVersion.revision
+* Moved from zucker 13.1 gem into its own gem
 

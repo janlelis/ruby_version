@@ -5,8 +5,8 @@ require File.expand_path('../lib/ruby_version/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.name          = "ruby_version"
   gem.version       = RubyVersion::VERSION
-  gem.summary       = 'Adds the RubyVersion pseudo-constant'
-  gem.description   = 'Gives you an inteligent RubyVersion class'
+  gem.summary       = 'Adds the RubyVersion pseudo-constant.'
+  gem.description   = 'Provides a RubyVersion class to simplify checking for the right Ruby version in your programs.'
   gem.license       = "MIT"
   gem.authors       = ["Jan Lelis"]
   gem.email         = "mail@janlelis.de"
