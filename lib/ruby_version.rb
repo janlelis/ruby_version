@@ -114,6 +114,10 @@ module RubyVersion
     def description
       RUBY_DESCRIPTION
     end
+
+    def revision
+      defined?(RUBY_REVISION) && RUBY_REVISION
+    end
   end
 end
 
