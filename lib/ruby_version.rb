@@ -2,6 +2,8 @@ require 'date'
 require 'time'
 
 module RubyVersion
+  VERSION = '1.0.1'
+
   class << self
     def to_s
       RUBY_VERSION
