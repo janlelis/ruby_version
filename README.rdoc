@@ -41,7 +41,9 @@ In Ruby:
 
 == Also See
 
-https://github.com/janlelis/ruby_engine
+https://github.com/janlelis/ruby_engine |
+https://github.com/janlelis/ruby_info |
+https://github.com/rdp/os
 
 == J-_-L
 
