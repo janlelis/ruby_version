@@ -35,7 +35,7 @@ describe 'RubyVersion' do
     end
 
     it 'also allows to check for the release dates' do
-      RubyVersion.is.older_than( Date.today ).should == true
+      RubyVersion.is.older_than( Date.today + 365 ).should == true
       RubyVersion.is.newer_than( '2000-01-01' ).should == true
     end
   end
