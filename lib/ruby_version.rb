@@ -4,7 +4,7 @@ require 'date'
 require 'time'
 
 module RubyVersion
-  VERSION = '1.0.1'
+  VERSION = '1.0.2'
 
   class << self
     def to_s
