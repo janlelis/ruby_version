@@ -6,10 +6,10 @@ Gem::Specification.new do |gem|
   gem.name          = "ruby_version"
   gem.version       = RubyVersion::VERSION
   gem.summary       = 'Adds the RubyVersion pseudo-constant.'
-  gem.description   = 'Provides a RubyVersion class to simplify checking for the right Ruby version in your programs.'
+  gem.description   = 'Provides a RubyVersion class which offers a convenient DSL for checking for the right Ruby version'
   gem.license       = "MIT"
   gem.authors       = ["Jan Lelis"]
-  gem.email         = "mail@janlelis.de"
+  gem.email         = ["hi@ruby.consulting"]
   gem.homepage      = "https://github.com/janlelis/ruby_version"
 
   gem.files         = Dir['{**/}{.*,*}'].select { |path| File.file?(path) }
