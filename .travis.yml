@@ -11,12 +11,7 @@ rvm:
 - 2.1
 - 2.0
 - 1.9
-- 1.8
+- 1.8.7
 - ruby-head
 - jruby-9.2.9.0
 - truffleruby
-
-matrix:
-  allow_failures:
-    - rvm: truffleruby
-#   fast_finish: true
