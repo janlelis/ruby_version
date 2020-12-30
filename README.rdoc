@@ -1,4 +1,4 @@
-= RubyVersion {<img src="https://travis-ci.org/janlelis/ruby_version.png" />}[https://travis-ci.org/janlelis/ruby_version]
+= RubyVersion {<img src="https://badge.fury.io/rb/ruby_version.svg" alt="Gem Version" />}[https://badge.fury.io/rb/ruby_version] {<img src="https://github.com/janlelis/ruby_version/workflows/Test/badge.svg" />}[https://github.com/janlelis/ruby_version/actions?query=workflow%3ATest]
 
 Provides a +RubyVersion+ to simplify checking for the right Ruby version in your programs.
 
