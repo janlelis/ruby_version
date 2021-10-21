@@ -23,14 +23,13 @@ require 'rake'
 require 'rubygems/tasks'
 Gem::Tasks.new
 
-require 'rdoc/task'
-RDoc::Task.new do |rdoc|
-  rdoc.title = "ruby_version"
-end
-task :doc => :rdoc
+# # #
+# Spec
 
-require 'rspec/core/rake_task'
-RSpec::Core::RakeTask.new
+desc "Run specs"
+task :spec do
+  sh "rspec"
+end
 
 task :test    => :spec
 task :default => :spec
