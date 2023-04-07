@@ -1,8 +1,9 @@
-= RubyVersion {<img src="https://badge.fury.io/rb/ruby_version.svg" alt="Gem Version" />}[https://badge.fury.io/rb/ruby_version] {<img src="https://github.com/janlelis/ruby_version/workflows/Test/badge.svg" />}[https://github.com/janlelis/ruby_version/actions?query=workflow%3ATest]
+# RubyVersion [<img src="https://badge.fury.io/rb/ruby_version.svg" alt="Gem Version" />](https://badge.fury.io/rb/ruby_version) [<img src="https://github.com/janlelis/ruby_version/workflows/Test/badge.svg" />](https://github.com/janlelis/ruby_version/actions?query=workflow%3ATest)
 
-Provides a +RubyVersion+ to simplify checking for the right Ruby version in your programs.
+Provides a `RubyVersion` to simplify checking for the right Ruby version in
+your programs.
 
-== Setup
+## Setup
 
 On your command-line:
 
@@ -12,7 +13,7 @@ In Ruby:
 
     require 'ruby_version'
 
-== Usage
+## Usage
 
     # Output RUBY_VERSION
     RubyVersion.to_s
@@ -39,12 +40,12 @@ In Ruby:
     RubyVersion.patchlevel # => 249
     RubyVersion.description # => "ruby 1.8.7 (2010-01-10 patchlevel 249) [i486-linux]"
 
-== Also See
+## Also See
 
-https://github.com/janlelis/ruby_engine |
-https://github.com/janlelis/ruby_info |
-https://github.com/rdp/os
+- https://github.com/janlelis/ruby_engine
+- https://github.com/janlelis/ruby_info
+- https://github.com/rdp/os
 
-== J-_-L
+## J-_-L
 
 Copyright (c) 2010-2014 Jan Lelis. MIT License. Originated from the zucker gem.
