@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.0.3 / 2023-04-07
+
+* Remove old gem versions (`pkg` dir) from release
+
 ## 1.0.2 / 2020-01-04
 
 * Freeze string literals
